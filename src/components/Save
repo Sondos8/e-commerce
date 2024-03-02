@@ -1,0 +1,44 @@
+  # // function validate(values) {
+
+  # //   const myError = {} 
+
+  # //   if (!values.name){
+  # //     myError.name = "name is required"
+  # //   } 
+  # //   if (!values.email){
+  # //     myError.email = "email is required"
+  # //   } 
+  # //   if (!/^[A-Z][A-Za-z0-9@]{8,}$/.test(values.password)){
+  # //     myError.password = "password is required"
+  # //   } 
+  # //   if (values.rePassword != values.password){
+  # //     myError.rePassword = "Password and rePassword not match"
+  # //   } 
+
+  # //   return myError
+  # // }
+
+
+  # // function validationSchema() {
+
+  # //   let schema = new Yap.object({
+  # //     name: Yup.string().man(3).max(25).required(),
+  # //     email: Yup.string().email().required(),
+  # //     password: Yup.string().matches(/^[A-Z][a-z0-9]{6.}$/).required(),
+  # //     rePassword: Yup.string().oneOf([Yup.ref("password")]).required(),
+  # //   })
+  # //   return schema
+  # // }
+
+  #   // let [products, setProducts] = useState([])
+  # // let [loading, setLoading] = useState(true)
+  # // async function getProducts() {
+  # //   let { data } = await axios.get('https://ecommerce.routemisr.com/api/v1/products')
+  # //   console.log(data.data);
+  # //   setProducts(data.data)
+  # //   setLoading(false)
+  # // } 
+
+  # // useEffect(() => {
+  # //   getProducts()
+  # // }, [])
